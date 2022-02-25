@@ -2,7 +2,7 @@ FROM openjdk:8-alpine
 
 COPY ./pom.xml /app/pom.xml
 
-COPY ./Tamra-Asses /app/Tamra-Asses/
+COPY ./AdvancedJsonParsing /app/AdvancedJsonParsing/
 
 RUN cd /app/Tamra-Asses && \
     mvn -T 1C clean package \
